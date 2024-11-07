@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+}
+*{
+    text-decoration: none;
+}
+.navbar{
+    background: rgb(15, 2, 45);
+    font-family: Arial;
+    padding-right: 15px;
+    padding-left: 15px;
+    position:fixed;
+    width: 100%;
+   
+
+}
+.navdiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+.logo{
+    width: 32px;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 25px;
+    
+}
+li a:hover{
+    color: crimson;
+    transition: li a 1s;
+}
+.logo-image{
+    width: 319%;
+}
+
+.First-pic{
+    text-decoration: none;
+    width: 100%;
+    
+}
